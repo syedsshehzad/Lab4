@@ -1,5 +1,5 @@
-4 8
-3 6
-2 9
-3 10
-3 15
+INPUT			OUTPUT					TEST CONDITION
+{37, 12, 17, 59}	{59, 37, 17, 12}			typical
+{6, 0, -4, 1004, 12}	{1004, 12, 6, 0, -4}			weirder numbers
+{59, 37, 17, 12}	{59, 37, 17, 12}			pre-sorted
+null			throws IllegalArgumentException		exceptional
